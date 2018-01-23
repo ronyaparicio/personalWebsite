@@ -495,7 +495,13 @@ body {
 
 .navigation {
   height: 10%;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative; }
+  .navigation__list {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%); }
   .navigation__button {
     color: #fff;
     width: 10rem;
@@ -504,15 +510,9 @@ body {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
     text-align: center;
     display: inline-block;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 13%;
-    transform: translate(-50%, -50%);
-    position: relative; }
-  .navigation__list {
-    float: right;
-    height: 100%; }
+    cursor: pointer; }
+    .navigation__button:hover {
+      border-bottom: 1px solid #fff; }
 
 .section-about {
   background-color: #f7f7f7;
