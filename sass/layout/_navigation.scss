@@ -1,9 +1,9 @@
 .navigation {
     // border: 1px solid green;
     height: 10%;
-    background-color: rgba($color-black, 0.1);
+    // background-color: rgba(0,0,0, 0.1);
     position: relative;
-    border-bottom: 0.5px solid rgb($color-grey-dark);
+    // border-bottom: 0.5px solid $color-grey-dark;
    
     
     &__list {
@@ -19,7 +19,7 @@
         width: 10rem;
         border-radius: 0.5rem;
         z-index: 2000;
-        box-shadow: 0 1rem 3rem rgba($color-black);
+        box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
         text-align: center;
         display: inline-block;
         cursor: pointer;
@@ -48,4 +48,8 @@
     }
 
     
+}
+
+.project-img{
+    width: 50rem;
 }
