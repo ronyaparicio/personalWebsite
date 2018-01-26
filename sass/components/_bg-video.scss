@@ -11,6 +11,11 @@
     &__content {
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        background-image: 
+        linear-gradient(to right bottom,
+        rgba($color-grey-dark-3, 0.9),
+        rgba($color-grey-dark-3, 0.8)),
+        url("../img/web-design-2906159_1920.jpg");
+        background-size: cover;
     }
 }

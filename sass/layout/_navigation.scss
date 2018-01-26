@@ -7,14 +7,20 @@
    
     
     &__list {
-        position: absolute;
-            top: 50%;
-            left: 0%;
-        transform: translate(0%, -50%);
+        // position: absolute;
+        //     top: 50%;
+        //     left: 0%;
+        // transform: translate(0%, -50%);
+        margin-top: 1rem;
+        float: right;
         
     }
 
-    &__button {
+    &__item {
+        display: inline-block;
+    }
+
+    &__link {
         color: $color-white;
         width: 10rem;
         border-radius: 0.5rem;
@@ -26,15 +32,16 @@
         // border: 1px solid red;
         font-size: 1.6rem;
         font-weight: 900;
+        text-decoration: none;
         
 
-        // &:hover {
-        //     // text-decoration: underline $color-white;
-        // }
+        &:hover {
+            text-decoration: underline $color-white;
+        }
 
     }
     &__icons-list {
-        // border: 1px solid red;
+        border: 1px solid red;
         position: absolute;
         top: 50%;
         left: 85%;

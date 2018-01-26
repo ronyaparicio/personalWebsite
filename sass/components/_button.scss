@@ -42,6 +42,18 @@
         }
     }
 
+    &--yellow {
+        background-color: rgb(254,215,102);
+        color: $color-black;
+
+        &::after {
+            background-color: rgb(254,215,102) ;
+        }
+
+    }
+
+    
+
     &--green {
         background-color: $color-primary;
         color: $color-white;
