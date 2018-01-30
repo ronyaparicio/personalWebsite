@@ -1,16 +1,9 @@
 .navigation {
-    // border: 1px solid green;
     height: 10%;
-    // background-color: rgba(0,0,0, 0.1);
     position: relative;
-    // border-bottom: 0.5px solid $color-grey-dark;
    
-    
     &__list {
-        // position: absolute;
-        //     top: 50%;
-        //     left: 0%;
-        // transform: translate(0%, -50%);
+       
         margin-top: 1rem;
         float: right;
         
@@ -40,21 +33,6 @@
         }
 
     }
-    &__icons-list {
-        border: 1px solid red;
-        position: absolute;
-        top: 50%;
-        left: 85%;
-        transform: translate(0%, -50%);
-        font-size: 4rem;
-    }
-
-    &__icon {
-       margin-right: 1rem; 
-       color: $color-white;
-    }
-
-    
 }
 
 .project-img{
