@@ -4,10 +4,56 @@
     font-size: 1.4rem;
     color: $color-grey-light-1;
 
-    &__copyright {
-        border-top: 1px solid $color-grey-dark;
-        padding-top: 2rem;
-        width: 80%;
-        float: right;
+    &__contact-info {
+
+        &__list {
+            // display: inline-block;
+        }
+
+        &__icon {
+            font-size: 6rem;
+            margin-bottom: .5rem;
+            display: inline-block;
+            color: $color-white;
+        }
+
+        &__number {
+            text-decoration: none;
+            color: $color-white;
+
+        }
+
     }
+
+    &__contact-form {
+        border: 1px solid red;
+        
+    }
+
+    .form-input {
+        width: 49%;
+        margin: 0;
+        padding: 0;
+
+
+        font-size: 1.5rem;
+        font-family: inherit;
+        color: inherit;
+        padding: 1.5rem 2rem;
+        border-radius: 2px;
+        background-color: rbga($color-white, .5);
+        border: none;
+        border-bottom: 3px solid transparent;
+        // &-email {
+
+        //     display: block;
+        // }
+    }
+
+
+    
+}
+
+.profile-img {
+    width: 3.5rem;
 }

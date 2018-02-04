@@ -18,6 +18,7 @@
         </div>
         
         <nav class="navigation container">
+            <img src="img/logo.png" alt="Logo" class="navigation__logo">
             <ul class="navigation__list">
                 <li class="navigation__item"><a href="#home" class="navigation__link">Home</a></li>
                 <li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
@@ -26,16 +27,16 @@
         </nav>
         <div class="header__text-box container">
             <h1 class="heading-primary">
-                <span class="heading-primary--main">Rony Aparicio</span>
-                <span class="heading-primary--sub">Web developer</span>
+                <span class="heading-primary--main">Web Developer</span>
+                <span class="heading-primary--sub">Producing high quality responsive websites and exceptional user experience</span>
             </h1>
-            <a href="mailto:ronyaparicio@outlook.com" class="btn btn--yellow btn--animated">Contact</a>
+            <a href="#footer" class="btn btn--green btn--animated">Contact</a>
         </div>
     </header>
     <main>
         <section id="technologies" class="section-technologies">
             <div class="u-center-text u-margin-bottom-big u-margin-top-big">
-                <h2 class="heading-secondary" style="color: #e5b12d">Technologies</h2>
+                <h2 class="heading-secondary" >Technologies</h2>
             </div>
             <div class="container">
                 <div class="row u-center-text">
@@ -52,7 +53,7 @@
         </section>
         <section id="projects" class="section-projects">
             <div class="u-center-text u-margin-bottom-big u-margin-top-big">
-                <h2 class="heading-secondary" style="color: #e5b12d">Personal Projects</h2>
+                <h2 class="heading-secondary">Personal Projects</h2>
             </div>
             <div class="row">
 
@@ -70,15 +71,39 @@
             </div>
         </section>
     </main>
-    <footer class="footer u-center-text u-margin-top-big" id="footer">
-        <h1 class="heading-tertiary">Rony Aparicio</h1>
-        <ul >
-            <a href="https://www.linkedin.com/in/rony-william-aparicio-64508bb7/"><i class="navigation__icon fa fa-linkedin-square" aria-hidden="true"></i></a>
-            <a href="https://github.com/ronyaparicio"><i class="navigation__icon fa fa-github-square" aria-hidden="true"></i></a>
-            <a href=""><i class="navigation__icon fa fa-stack-overflow" aria-hidden="true"></i></a>
-        </ul>
-        <a href="mailto:ronyaparicio@outlook.com" class="btn btn--yellow u-margin-top-small">Email</a>
+    <footer class="footer" id="footer">
+      
+        <div class="row u-margin-top-big u-center-text">
+            <div class="col-1-of-2">
+                <!-- <img src="img/profile.png" alt="profile picture" class="profile-img"> -->
+                <h1 class="heading-tertiary">Rony Aparicio</h1>
+                <a href="" class="footer__contact-info__number">1 (385) 216-8988</a>
+                <ul class="footer__contact-info__list">
+                    <a href="https://www.linkedin.com/in/rony-william-aparicio-64508bb7/"><i class="footer__contact-info__icon fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href="https://github.com/ronyaparicio"><i class="footer__contact-info__icon fa fa-github-square" aria-hidden="true"></i></a>
+                    <a href="https://stackoverflow.com/users/9285793/rony-aparicio"><i class="footer__contact-info__icon fa fa-stack-overflow" aria-hidden="true"></i></a>
+                </ul>
+            </div>
+            <div class="col-1-of-2">
+                <form action="" class="footer__contact-form">
+
+
+
+                    <input type="text" class="form-input" placeholder="Name">
+                    <input type="text" class="form-input" placeholder="Phone">
+                    <input type="text" class="form-input-email" placeholder="Email">
+                    <textarea rows="4"  name="comment" form="usrform">Enter text here...</textarea>
+                    <input type="submit" class="btn btn--green" value="send">
+
+
+
+                    
+                </form>
+            </div>
+        </div>
+    
     </footer>
+        
 </body>
 </html>
 

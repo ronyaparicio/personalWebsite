@@ -8,7 +8,7 @@ body {
 
 .heading-primary {
     color: $color-white;
-    text-transform: uppercase;
+    
     backface-visibility: hidden;
     margin-bottom: 6rem;
 
@@ -17,10 +17,15 @@ body {
         font-size: 6rem;
         font-weight: 400;
         letter-spacing: 2.5rem;
-    
+        text-transform: uppercase;
         animation-name: moveInLeft;
         animation-duration: 1s;
         animation-timing-function: ease-out;
+
+        @include respond(phone) {
+            letter-spacing: .5rem;
+            font-weight: 100;
+        }
     
         /*
         animation-delay: 3s;
@@ -31,9 +36,9 @@ body {
     &--sub {
         display: block;
         font-size: 2rem;
-        font-weight: 700;
-        letter-spacing: 1.75rem;
+        font-weight: 400;
         animation: moveInRight 1s ease-out;
+        letter-spacing: 0.4rem;
     }
 }
 
@@ -42,7 +47,7 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     display: inline-block;
-    color: black;
+    color: $color-primary;
     letter-spacing: .2rem;
     transition: all .2s;
 
